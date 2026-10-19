@@ -6,7 +6,7 @@ class Program
 {
     static void Main(string[] args)
     {
-        MyLinkedList list = new MyLinkedList();
+        MyLinkedList<Book> list = new MyLinkedList<Book>();
 
         // Format per line -> title;author;isbn;publishDate;pages;price;genre
         string path = "books.txt";
